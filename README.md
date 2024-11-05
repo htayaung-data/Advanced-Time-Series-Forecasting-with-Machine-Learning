@@ -1,4 +1,4 @@
-# Advanced Time Series Forecasting Using Machine Learning
+# Advanced Time Series Forecasting using Machine Learning
 
 ## Overview
 
