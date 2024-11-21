@@ -9,7 +9,7 @@ This project presents an advanced approach to time series forecasting, focusing 
 - **Data Integration:** Combines sales, store, and holiday datasets to form a comprehensive dataset for analysis.
 - **Data Preprocessing:** Handles missing values, renames columns for clarity, and ensures proper data types.
 - **Feature Engineering:** Extracts temporal features, applies one-hot encoding to categorical variables, and prepares data for modeling.
-- **Model Training and Evaluation:** Utilizes XGBoost for regression tasks, performs hyperparameter tuning with GridSearchCV, and evaluates models using metrics like MSE, MAE, and R².
+- **Model Training and Evaluation:** Utilizes XGBoost for regression tasks, performs hyperparameter tuning with Optuna, and evaluates models using metrics like MSE, MAE, and R².
 - **Negative Prediction Handling:** Implements safeguards to replace negative predictions with zero, ensuring validity in sales forecasting.
 - **Visualization:** Generates plots to compare actual vs. predicted sales on daily and weekly scales, and conducts residual analysis to assess model performance.
 - **Future Sales Forecasting:** Extends the model to predict future sales by simulating future datasets and applying the trained model.
