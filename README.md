@@ -39,7 +39,6 @@ The project utilizes the following datasets:
 
 - **Temporal Features:** Extracts year, month, day, day of the week, and weekend indicators from the date to capture seasonal and temporal patterns in sales data.
 - **Categorical Encoding:** Applies one-hot encoding to categorical variables such as category, city, state, store type, and holiday information, allowing the model to interpret categorical data effectively.
-- **Lag and Rolling Features:** (Commented out in the code) Potential creation of lagged sales features and rolling means to capture temporal dependencies and trends.
 
 ### Model Training and Evaluation
 
